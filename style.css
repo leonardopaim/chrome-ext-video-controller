@@ -1,0 +1,23 @@
+.style-player {
+    height: 40px;
+    background-color: rgba(92, 0, 197, 0.384);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.btn-player {
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: transparent;
+    color: #fff;    
+}
+
+.btn-player:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;    
+}
